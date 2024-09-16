@@ -6,23 +6,163 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            table, th, td {
+      border: 1px solid black;
+}
+        </style>
 </head>
 <body> 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>consectetur, adipisicing elit. Iure dolores blanditiis,</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure dolores blanditiis, molestias, veniam aperiam id rerum, maxime incidunt ducimus corrupti quos esse earum dolorum nihil perferendis fugiat non debitis? Voluptas?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, laboriosam vitae? Incidunt corporis, quis vitae repudiandae repellat rem laborum dignissimos ex magnam illo deleniti eius debitis itaque perferendis tempora voluptas?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto in iusto aperiam cupiditate dicta commodi eius, veniam voluptates, ipsum alias, debitis mollitia quasi sapiente sint nemo. Veritatis beatae voluptatum dolor.</p>
+    <button  type="button" class="btn btn-primary">hello</button>
+</div>
+
+<div class="container bg-success" >
+   <ul>
+    <li>father</li>
+    <li>father</li>
+    <li>father</li>
+    <li>father</li>
+   </ul>
+
+    <ol>
+        <li>father</li>
+        <li>father</li>
+        <li>father</li>
+        <li>father</li>
+    </ol>
+   
+
+    <a href="https://www.youtube.com/watch?v=ZaWoIRSEhsA">youtube</a>
+</div>
+
+<div class="container">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
     
-  
-    <h1 style="color: red;" >Hello World!</h1>
-    <h2 style="color: blue">Hello World!</h2>
-    <h3>Hello World!</h3>
-    <h4 class="h41" >Hello World! 1st h4</h4>
-    <h4 id="h42">Hello World! 2nd h4</h4>
-    <h5>Hello World!</h5> 
-    <h6>Hello World!</h6>
+    <button type="button" class="btn btn-link">Link</button>
+</div>
+
+ <!-- <div>
+    <select name="" id="">
+        <option value="teacher">teacher</option>
+        <option value="teacher">parent</option>
+        <option value="teacher">staff</option>
+        <option value="teacher">Students</option>
+    </select>
+ </div> -->
+
+ <!-- <div class="container">
+    <form action="" method="post" style="margin: 100px;">
+        <label for="name">Name</label>
+        <input type="text" name="" id=""> <br> <br>
+        <label for="password">password</label>
+        <input type="password" name="" id=""> <br><br>
+        <input type="submit">
     
-    <p>Hello World! this is the paragraph</p>
+    </form>
+ </div> -->
 
 
-    
 
+
+
+<table >
+    
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+   
+   
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+        </tr>
+   
+</table>
+
+
+
+
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 
